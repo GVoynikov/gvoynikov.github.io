@@ -18,12 +18,49 @@ header h1 {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 10rem;
     color: white;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.7rem;
     text-shadow: 5px 5px 5px black;
 }
 
+#header-nav {
+    position: relative;
+    padding-left: 4rem;
+    top: 15vh;
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin: auto auto;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 5px;
+    background-color: rgb(11,152,224);
+}
+
+.button-text {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    color: white;
+    text-align: center;
+}
+
+.header-button:hover {
+    opacity: 0.7;
+}
+
+.header-button:active {
+    box-shadow: none;
+    opacity: 1;
+}
+
 #footer {
-    position: fixed;
     bottom: 0;
     height: 30px;
     background-color: grey;
