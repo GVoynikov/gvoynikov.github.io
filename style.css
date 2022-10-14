@@ -1,6 +1,25 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
+}
+
+header {
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    
+}
+
+header h1 {
+    margin: 0;
+    position: relative;
+    left: 2rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 10rem;
+    color: white;
+    letter-spacing: 0.4rem;
+    text-shadow: 5px 5px 5px black;
 }
 
 #footer {
@@ -9,4 +28,8 @@ body {
     height: 30px;
     background-color: grey;
     width: 100%;
+}
+
+main {
+    padding: 10px;
 }
