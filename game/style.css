@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#game-border {
+    width: 400px;
+    height: 250px;
+    border: 3px solid rgb(35, 35, 35);
+    border-radius: 3px;
+    margin: auto;
+    box-shadow: 3px 3px 5px black;
+}
+
+#game-border h2 {
+    text-align: center;
+}
+
+#examples {
+    display: flex;
+    justify-content: space-around;
+}
+
+#examples .circle {
+    background-color: green;
+}
+
+#examples .triangle {
+    border-bottom-color: blue;
+}
+
+#shape {
+    display: none;
+}
+
+.square {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: red
+}
+
+.triangle {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border-bottom: 75px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
+    
+}
+
+.circle {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    border-radius: 75px;
+}
+
+#timer {
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+#buttons {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: 7rem;
+    height: 2rem;
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+
+.button:hover {
+    opacity: 0.7;
+
+}
+
+.button:active {
+    box-shadow: none;
+    opacity: 1;
+}
+
+.button p {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.5rem black;
+}
