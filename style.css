@@ -30,6 +30,17 @@ header h1 {
     text-shadow: 5px 5px 5px black;
 }
 
+#header-h2 {
+    margin: 0;
+    position: relative;
+    padding-left: 4rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.7rem;
+    text-shadow: 5px 5px 5px black;
+}
+
 #header-nav {
     position: relative;
     padding-left: 4rem;
@@ -49,6 +60,7 @@ header h1 {
     border-radius: 0.7rem;
     box-shadow: 2px 2px 5px;
     background-color: rgb(11,152,224);
+    transition: 200ms;
 }
 
 .button-text {
